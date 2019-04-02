@@ -7,8 +7,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="style/main.scss" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.scss"/>
 
     <title>The GoldenHack</title>
 
@@ -16,7 +16,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/">The GoldenHack</a>
+        <a class="navbar-brand" href="/"><img src="static/logo.png" style="height: 50px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,79 +26,70 @@
             <li class="nav-item">
                 <a class="nav-link" href="/#about">About</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="/#sponsors">Sponsors</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/#faq">FAQ</a>
-            </li>
+            </li> -->
             <li class="nav-item">
-                <a class="nav-link" href="/#contact">Contact</a>
+                <a class="nav-link" href="/#join">Join Us</a>
             </li>
             </ul>
         </div>
     </nav>
       
     <!-- Header -->
-    <section class="container top-buffer-100" style="height: 400px; padding-top: 75px;">
-      <h1 class="text-center" style="font-size: 100px; font-weight: bold;">THE<BR>GOLDENHACK</h1>
+    <section class="container" style="height: 20vh; margin-top: 20vh;">
+      <h1 class="text-center" style="font-size: 7vw;">The<BR>GoldenHack</h1>
     </section>
 
     <!-- About -->
-    <section id="about" class="container top-buffer-100">
+    <section id="about" class="container" style="margin-top: 20vh;">
       <div class="row">
-          <div class="col">
+          <div class="col-md">
               <img src="static/code.svg" style="max-width: 100%; height: auto;">
           </div>
       
-          <div class="col">
-              <div style="height: 250px;">
-                  <div class="mx-1 my-5">
-                      <h2 class="text-right"># About</h2></h2>
-                      <p style="text-align: right">
-                          The GoldenHack is a business hackathon held at Wilfrid Laurier University under 
-                          the Lazaridis School of Business and Economics on October 5-6, 2019. We are 
-                          accepting more than 250 students come to Laurier to code, design and innovate 
-                          their way in our multidisciplinary event. They will solve fun and challenging 
-                          problems over 24 hours, and we’d love you to be a part of it! We are inviting 
-                          not only student developers, but also design and business students to encourage 
-                          well-rounded teams.
-                      </p>
-                  </div>
-              </div>
+          <div class="col-md mx-1 my-5">
+            <h2 class="text-center"># What is The GoldenHack?</h2></h2>
+            <p style="text-align: center">
+                <b>The GoldenHack</b> is a business hackathon held at Laurier on<br>
+                <b>October 5-6, 2019.</b>
+                <br><br>
+                We are accepting 250+ students to come to Laurier to code, design and innovate in this 
+                multidisciplinary event. The attendees will solve fun and challenging problems over
+                24 hours, and we’d love for you to be a part of it! We are inviting not only <b>student 
+                developers</b>, but also <b>design</b> and <b>business</b> students to encourage well-rounded teams.
+            </p>
           </div>
       
       </div>
     </section>
 
     <!-- More about -->
-    <section class="container top-buffer-100">
-      <div class="row" style="padding-top: 40px;">
-          <div class="col">
-              <div style="height: 250px; margin-top: 75px">
-                  <div class="mx-1">
-                      <h2># More About</h2>
-                      <p style="text-align: left">
-                          We’re calling ourselves a “business hackathon” to help blend the worlds of 
-                          business and technology. We often find that although many other hackathons 
-                          aim to have attendees of all skill sets and programs, many business and design 
-                          students can feel under-appreciated or even unwanted. Since Wilfrid Laurier 
-                          University prides itself in it’s business program, while also having its 
-                          own computer science and user experience design programs, we decided that it 
-                          was time to bring the technology to the business students, rather than 
-                          dragging the business students to the technology.
-                      </p>
-                  </div>
-              </div>
+    <section class="container" style="margin-top: 5vh;">
+      <div class="row">
+
+          <div class="col-md mx-1" style="margin-top: 10vh;">
+            <h2 class="text-center"># Being a Business Hackathon</h2>
+            <p style="text-align: center">
+                As a “business hackathon” our aim is to blend the worlds of business and technology. 
+                We often find that business and design students are not encouraged to participate 
+                or are underrepresented in hackathons and we want to change that! Laurier prides 
+                itself on its business, computer science and user experience design programs, so we 
+                decided that it was time to bring these complementary disciplines together in <b>The GoldenHack</b>.
+            </p>
           </div>
-          <div class="col">
-              <img src="static/monitor.svg" style="height: 475px; max-width: 100%; height: auto;">
+
+          <div class="col-md">
+              <img src="static/monitor.svg" style="max-width: 100%; height: auto;">
           </div>
       </div>
     </section>
 
     <!--  Sponsors -->
-    <section id="sponsors" class="container top-buffer-100">
+    <!-- <section id="sponsors" class="container top-buffer-100">
       <div class="row" style="padding-bottom: 40px;">
           <div class="col text-center">
               <img src="static/mission-impossible.svg" style="max-width: 100%; height: auto;">
@@ -119,10 +110,35 @@
               </div>
           </div>
       </div>
+    </section> -->
+
+    <!-- More More About -->
+    <section id="more-more-about" class="container" style="margin-top: 10vh; margin-bottom: 10vh">
+        <div class="row">
+            <div class="col-md text-center">
+                <img src="static/mission-impossible.svg" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="col-md order-first order-md-last">
+                <h2 class="text-center my-2" style="padding-top: 10vh;"># The Inspiration</h2>
+                <p style="text-align: center">
+                    Hackathons are wonderful experiences to build something amazing literally overnight. 
+                    Students get to network, learn, collect cool sponsor swag, make friends, and get free
+                    food all while being 100% sleep deprived. This is an experience that anyone interested 
+                    in creative problem solving should not miss.
+                    <br><br>
+                    Our goal is to show the world that <b>innovation is a team sport</b>. We’d love to be the event 
+                    where a designer, a developer and a business student decide to co-found the next massive 
+                    social network. Or maybe the next best fintech solution. We want to create an atmosphere 
+                    where the entrepreneurial and creative spirit thrives, and where everyone feels valued.
+                    <br><br>
+                    We are committed to building a prosperous community and having fun while doing it.
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- FAQ -->
-    <section id="faq" class="container top-buffer-100">
+    <!-- <section id="faq" class="container top-buffer-100">
       <div style="padding-bottom: 40px;">
           <h2 class="text-center my-2"># Frequently Asked Questions</h2>
           <div class="row mx-1">
@@ -135,7 +151,7 @@
                         What is a hackathon anyway?
                       </a>
                       <div class="card-body collapse" id="faq1">
-                        Answer
+                        // Under construction
                       </div>
                   </div>
                   <br>
@@ -144,7 +160,7 @@
                         How much does it cost?
                       </a>
                       <div class="card-body collapse" id="faq2">
-                        Answer
+                        // Under construction
                       </div>
                   </div>
                   <br>
@@ -153,7 +169,7 @@
                         How will I get there?
                       </a>
                       <div class="card-body collapse" id="faq3">
-                        Answer
+                        // Under construction
                       </div>
                   </div>
                   <br>
@@ -162,7 +178,7 @@
                         What if I don't know how to code?
                       </a>
                       <div class="card-body collapse" id="faq4">
-                        Answer
+                        // Under construction
                       </div>
                   </div>
                   <br>
@@ -171,7 +187,7 @@
                         What should I bring?
                       </a>
                       <div class="card-body collapse" id="faq5">
-                        Answer
+                        // Under construction
                       </div>
                   </div>
                   <br>
@@ -189,33 +205,29 @@
               </div>
           </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Contact Us -->
-    <section id="contact" class="container top-buffer-100">
-      <div class="box" style="height: 200px;">
-          <div>
-            <h2 class="text-center my-2"># Contact Us</h2>
-            <p style="text-align: center">
-                Get in touch! We'd love to hear from you.<br>Shoot us an email at
-                <a class="mailto" href="mailto:contact@goldenhacks.com">contact@goldenhacks.com</a>
-                or message us on
-                <a href="">Facebook</a>.
-            </p>
-            <br><br>
-            <p style="text-align: center">
-                Interested in joining our team?<br>
-            </p>
-            <div class="text-center">
-                <a class="btn" style="background-color: #ffc107;" href="" role="button">Apply</a>
-            </div>
-          </div>
-      </div>
+    <!-- Join Us -->
+    <section id="join" class="container" style="margin-top: 10vh; margin-bottom: 10vh">
+        <h2 class="text-center my-2"># Join Us</h2>
+        <!-- <p style="text-align: center">
+            Get in touch! We'd love to hear from you.<br>Shoot us an email at
+            <a class="mailto" href="mailto:contact@goldenhacks.com">contact@goldenhacks.com</a>
+            or message us on
+            <a href="">Facebook</a>.
+        </p> -->
+        <br><br>
+        <p style="text-align: center">
+            Interested in joining our team?<br>
+        </p>
+        <div class="text-center">
+            <a class="btn" style="background-color: #ffc107;" href="https://forms.gle/dyFjAJhvK5u91Dy59" target="_blank" role="button">Apply</a>
+        </div>
     </section>
 
 
     <!-- Footer -->
-    <div class="row mx-1" style="width: 100%; height: 60px; background-color: #E7E7E7">
+    <!-- <div class="row mx-1" style="width: 100%; height: 60px; padding-top: 100px; background-color: #E7E7E7">
         <div class="col-md-3">
             <a href="/code" style="color: black">Code of Conduct</a>
             <a href="/privacy" style="color: black">Privacy Policy</a>
@@ -225,7 +237,7 @@
             <a href="/facebook" style="color: black">Facebook</a>
             <a href="/git" style="color: black">Github</a>
         </div>
-    </div>
+    </div> -->
 
     <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
