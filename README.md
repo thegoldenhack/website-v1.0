@@ -1,1 +1,3 @@
-# the-goldenhack-website
+# The GoldenHack Website
+
+[wip]
