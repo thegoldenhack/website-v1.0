@@ -12,8 +12,4 @@ cd website
 git checkout <branch name>
 ```
 
-To start a local dev server run `npm run start:dev`
-
-## Continuous Integration
-
-_wip_
+To start a local dev server on `localhost:9000` run `npm run start:dev`
