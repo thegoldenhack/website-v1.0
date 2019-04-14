@@ -9,7 +9,7 @@ Based on boilerplate code found [here](https://github.com/erickzhao/static-html-
 ```
 git clone git@github.com:golden-hacks/website.git
 cd website
-git checkout <branch name>
+git checkout -b <branch name>
 ```
 
 To start a local dev server on `localhost:9000` run `npm run start:dev`
