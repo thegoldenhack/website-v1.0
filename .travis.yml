@@ -14,8 +14,8 @@ deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_KEY
-  bucket: "arn:aws:s3:::www.thegoldenhack.ca"
-  kip_cleanup: true
+  bucket: "www.thegoldenhack.ca"
+  skip_cleanup: true
   region: "us-east-2"
   on:
     branch: master
