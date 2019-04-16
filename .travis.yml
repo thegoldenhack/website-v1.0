@@ -5,16 +5,18 @@ node_js:
 install:
   - npm install
 script:
-  - npm run lint:styles
-  - npm run lint:js
-  - npm run lint:html
+  # - npm run lint:styles
+  # - npm run lint:js
+  # - npm run lint:html
   - npm run build
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  local-dir: dist
+  # clear bucket before deploy?
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: "arn:aws:s3:::www.thegoldenhack.ca"
+  kip_cleanup: true
+  region: "us-east-2"
   on:
     branch: master
     node: 'lts/*'

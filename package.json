@@ -51,5 +51,8 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "dependencies": {
+    "travis-cli": "^1.0.9"
+  }
 }
