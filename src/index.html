@@ -26,7 +26,7 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/"><img src="static/logo.png" style="height: 50px;"></a>
+        <a class="navbar-brand" href="/"><img class="height50" src="static/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,20 +50,20 @@
     </nav>
       
     <!-- Header -->
-    <section class="container" style="height: 20vh; margin-top: 20vh;">
-      <h1 class="text-center" style="font-size: 7vw;">The<BR>GoldenHack</h1>
+    <section class="container marginTop20 height20vh">
+      <h1 class="text-center title">The<BR>GoldenHack</h1>
     </section>
 
     <!-- About -->
-    <section id="about" class="container" style="margin-top: 20vh;">
-      <div class="row" style="padding-top: 40px">
+    <section id="about" class="container marginTop20">
+      <div class="row paddingTop10">
           <div class="col-md">
-              <img src="static/code.svg" style="max-width: 100%; height: auto;">
+              <img src="static/code.svg" class="image">
           </div>
       
           <div class="col-md mx-1 my-5">
             <h2 class="text-center"># What is The GoldenHack?</h2></h2>
-            <p style="text-align: center">
+            <p class="text-center">
                 <b>The GoldenHack</b> is a business hackathon held at Laurier on<br>
                 <b>October 5-6, 2019.</b>
                 <br><br>
@@ -78,12 +78,12 @@
     </section>
 
     <!-- More about -->
-    <section class="container" style="margin-top: 5vh;">
+    <section class="container marginTop5">
       <div class="row">
 
-          <div class="col-md mx-1" style="margin-top: 10vh;">
+          <div class="col-md mx-1 marginTop10">
             <h2 class="text-center"># Being a Business Hackathon</h2>
-            <p style="text-align: center">
+            <p class="text-center">
                 As a “business hackathon” our aim is to blend the worlds of business and technology. 
                 We often find that business and design students are not encouraged to participate 
                 or are underrepresented in hackathons and we want to change that! Laurier prides 
@@ -93,44 +93,20 @@
           </div>
 
           <div class="col-md">
-              <img src="static/monitor.svg" style="max-width: 100%; height: auto;">
+              <img src="static/monitor.svg" class="image">
           </div>
       </div>
     </section>
 
-    <!--  Sponsors -->
-    <!-- <section id="sponsors" class="container top-buffer-100">
-      <div class="row" style="padding-bottom: 40px;">
-          <div class="col text-center">
-              <img src="static/mission-impossible.svg" style="max-width: 100%; height: auto;">
-          </div>
-          <div class="col">
-              <h2 class="text-center my-2" style="padding-top: 20%;"># Interested in Sponsoring?</h2>
-              <p style="text-align: center">
-                  Our goal is to show the world that innovation is a team sport. We’d love to be 
-                  the event where a designer, a developer and a business student decide to co-found 
-                  the next massive social network. Or maybe the next best fintech software. 
-                  We want to create an atmosphere where the entrepreneurial and creative spirit 
-                  thrives, and where everyone feels valued.
-                  <br><br>
-                  Want to get in on the action?
-              </p>
-              <div class="text-center">
-                  <a class="btn" style="background-color: #ffc107;" href="/sponsors.html" role="button">Become a Sponsor</a>
-              </div>
-          </div>
-      </div>
-    </section> -->
-
     <!-- More More About -->
-    <section id="more-more-about" class="container" style="margin-top: 10vh; margin-bottom: 10vh">
+    <section id="more-more-about" class="container margin10">
         <div class="row">
             <div class="col-md text-center">
-                <img src="static/mission-impossible.svg" style="max-width: 100%; height: auto;">
+                <img src="static/mission-impossible.svg" class="image">
             </div>
             <div class="col-md order-first order-md-last">
-                <h2 class="text-center my-2" style="padding-top: 10vh;"># The Inspiration</h2>
-                <p style="text-align: center">
+                <h2 class="text-center my-2 paddingTop10"># The Inspiration</h2>
+                <p class="text-center">
                     Hackathons are wonderful experiences to build something amazing literally overnight. 
                     Students get to network, learn, collect cool sponsor swag, make friends, and get free
                     food all while being 100% sleep deprived. This is an experience that anyone interested 
@@ -147,13 +123,37 @@
         </div>
     </section>
 
+        <!--  Sponsors -->
+        <!-- <section id="sponsors" class="container top-buffer-100">
+          <div class="row">
+              <div class="col-md">
+                  <h2 class="text-center my-2 paddingTop10"># Interested in Sponsoring?</h2>
+                  <p class="text-center">
+                      Our goal is to show the world that innovation is a team sport. We’d love to be 
+                      the event where a designer, a developer and a business student decide to co-found 
+                      the next massive social network. Or maybe the next best fintech software. 
+                      We want to create an atmosphere where the entrepreneurial and creative spirit 
+                      thrives, and where everyone feels valued.
+                      <br><br>
+                      Want to get in on the action?
+                  </p>
+                  <div class="text-center">
+                      <a class="btn goldenButton" href="/sponsors.html" role="button">Become a Sponsor</a>
+                  </div>
+              </div>
+              <div class="col-md text-center">
+                <img class="image" src="static/mission-impossible.svg">
+            </div>
+          </div>
+        </section> -->
+
     <!-- FAQ -->
     <!-- <section id="faq" class="container top-buffer-100">
-      <div style="padding-bottom: 40px;">
-          <h2 class="text-center my-2"># Frequently Asked Questions</h2>
+      <div>
+          <h2 class="text-center pb-4"># Frequently Asked Questions</h2>
           <div class="row mx-1">
               <div class="col">
-                  <img src="static/question.svg" style="height: 450px; max-width: 100%; height: auto;">
+                  <img class="image height450" src="static/question.svg">
               </div>
               <div class="col">
                   <div class="card">
@@ -209,7 +209,7 @@
                           Shoot us an email at
                           <a class="mailto" href="mailto:contact@goldenhacks.com">contact@goldenhacks.com</a>
                           or message us on
-                          <a href="">Facebook</a>.
+                          <a href="https://www.facebook.com/TheGoldenHackOfficial/">Facebook</a>.
                       </div>
                   </div>
               </div>
@@ -218,34 +218,37 @@
     </section> -->
 
     <!-- Join Us -->
-    <section id="join" class="container" style="margin-top: 10vh; margin-bottom: 10vh">
+    <section id="join" class="container margin10">
         <h2 class="text-center my-2"># Join Us</h2>
-        <!-- <p style="text-align: center">
+        <p class="text-center">
             Get in touch! We'd love to hear from you.<br>Shoot us an email at
             <a class="mailto" href="mailto:contact@goldenhacks.com">contact@goldenhacks.com</a>
             or message us on
-            <a href="">Facebook</a>.
-        </p> -->
+            <a href="https://www.facebook.com/TheGoldenHackOfficial/">Facebook</a>.
+        </p>
         <br><br>
-        <p style="text-align: center">
+        <p class="text-center">
             Interested in joining our team?<br>
         </p>
         <div class="text-center">
-            <a class="btn" style="background-color: #ffc107;" href="https://forms.gle/dyFjAJhvK5u91Dy59" target="_blank" role="button">Apply</a>
+            <a class="btn goldenButton disabled" href="" target="_blank" role="button">Sorry, applications are now closed!</a>
         </div>
     </section>
 
 
     <!-- Footer -->
-    <!-- <div class="row mx-1" style="width: 100%; height: 60px; padding-top: 100px; background-color: #E7E7E7">
+    <!-- <div class="row mx-1 py-4 footer">
         <div class="col-md-3">
-            <a href="/code" style="color: black">Code of Conduct</a>
+          <span>
+            <a class="mr-2" href="/code" style="color: black">Code of Conduct</a>
             <a href="/privacy" style="color: black">Privacy Policy</a>
+          </span>
+            
         </div>
         <div class="col-md-2 offset-md-7">
-            <a href="/insta" style="color: black">Insta</a>
-            <a href="/facebook" style="color: black">Facebook</a>
-            <a href="/git" style="color: black">Github</a>
+            <a class="mr-2" href="/insta"><img class="image" src="static/instagram.svg"></a>
+            <a class="mr-2" href="https://www.facebook.com/TheGoldenHackOfficial/"><img class="image" src="static/facebook.svg"></a>
+            <a href="/git"><img class="image height24" src="static/github.svg"></a>
         </div>
     </div> -->
 
