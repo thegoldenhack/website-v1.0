@@ -1,8 +1,5 @@
-$goldenColour: #ffc107;
-$titleSize: 7vw;
-
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -10,7 +7,7 @@ a {
 }
 
 a:hover {
-  TEXT-DECORATION: none;
+  text-decoration: none;
   font-weight: none;
   color: #4B0082;
 }
@@ -18,11 +15,10 @@ a:hover {
 .faq-tab {
   color: black;
   background-color: #F5F5F5;
-
 }
 
 .faq-tab:hover {
-  TEXT-DECORATION: none;
+  text-decoration: none;
   font-weight: none;
   color: #4B0082;
 }
@@ -45,23 +41,21 @@ a:hover {
 .image {
   max-width: 100%;
   height: auto;
-
-  &.height450 {
-    height: 450px;
-  }
-
-  &.height24 {
-    height: 24px;
-  }
+}
+.image.height450 {
+  height: 450px;
+}
+.image.height24 {
+  height: 24px;
 }
 
 .title {
-  font-size: $titleSize;
+  font-size: 7vw;
 }
 
 .footer {
   width: 100%;
-  background-color: #E7E7E7
+  background-color: #E7E7E7;
 }
 
 .paddingTop10 {
@@ -73,7 +67,7 @@ a:hover {
 }
 
 .goldenButton {
-  background-color: $goldenColour;
+  background-color: #ffc107;
 }
 
 .height50 {
