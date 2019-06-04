@@ -1,5 +1,8 @@
+$goldenColour: #ffc107;
+$titleSize: 7vw;
+
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -15,6 +18,7 @@ a:hover {
 .faq-tab {
   color: black;
   background-color: #F5F5F5;
+
 }
 
 .faq-tab:hover {
@@ -41,21 +45,23 @@ a:hover {
 .image {
   max-width: 100%;
   height: auto;
-}
-.image.height450 {
-  height: 450px;
-}
-.image.height24 {
-  height: 24px;
+
+  &.height450 {
+    height: 450px;
+  }
+
+  &.height24 {
+    height: 24px;
+  }
 }
 
 .title {
-  font-size: 7vw;
+  font-size: $titleSize;
 }
 
 .footer {
   width: 100%;
-  background-color: #E7E7E7;
+  background-color: #E7E7E7
 }
 
 .paddingTop10 {
@@ -67,7 +73,7 @@ a:hover {
 }
 
 .goldenButton {
-  background-color: #ffc107;
+  background-color: $goldenColour;
 }
 
 .height50 {
