@@ -5,9 +5,6 @@ node_js:
 install:
   - npm install
 script:
-  # - npm run lint:styles
-  # - npm run lint:js
-  # - npm run lint:html
   - npm run build
 deploy:
   # clear bucket before deploy?
@@ -20,3 +17,7 @@ deploy:
   local_dir: src
   on:
     tags: true
+
+after_deploy:
+  - aws configure set preview.cloudfront true 
+  - aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
