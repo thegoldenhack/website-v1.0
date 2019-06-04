@@ -17,5 +17,6 @@ deploy:
   bucket: "www.thegoldenhack.ca"
   skip_cleanup: true
   region: "us-east-2"
+  local_dir: src
   on:
     tags: true
