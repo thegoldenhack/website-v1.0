@@ -1,0 +1,93 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+
+  a {
+    color: purple;
+  }
+
+  a:hover {
+    text-decoration: none;
+    font-weight: none;
+    color: #4b0082;
+  }
+
+  .faq-tab {
+    color: black;
+    background-color: #f5f5f5;
+  }
+
+  .faq-tab:hover {
+    text-decoration: none;
+    font-weight: none;
+    color: #4b0082;
+  }
+
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-buffer-40 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .top-buffer-100 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .image>.height450 {
+    height: 450px;
+  }
+
+  .image>.height24 {
+    height: 24px;
+  }
+
+  .title {
+    font-size: 7vw;
+  }
+
+  .footer {
+    width: 100%;
+    background-color: #e7e7e7;
+  }
+
+  .paddingTop10 {
+    padding-top: 10vh;
+  }
+
+  .margin10 {
+    margin: 10vh;
+  }
+
+  .goldenButton {
+    background-color: #ffc107;
+  }
+
+  .height50 {
+    height: 50px;
+  }
+
+  .height20vh {
+    height: 20vh;
+  }
+
+  .marginTop20 {
+    margin-top: 20vh;
+  }
+
+  .marginTop5 {
+    margin-top: 5vh;
+  }
+
+  .marginTop10 {
+    margin-top: 10vh;
+  }
